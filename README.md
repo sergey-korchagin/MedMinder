@@ -2,7 +2,7 @@
 =============================
 
 
-##<p align="justify">[Development Team](https://github.com/sergey-korchagin/MedMinder/wiki#-development-team)</p>
+##[Development Team](https://github.com/sergey-korchagin/MedMinder/wiki#-development-team)
 ##[Project Vision](https://github.com/sergey-korchagin/MedMinder/wiki#-project-vision)
 ##[Project Inception](https://github.com/sergey-korchagin/MedMinder/wiki#-project-inception)
 ##[Project Stages](https://github.com/sergey-korchagin/MedMinder/wiki#-project-stages)
