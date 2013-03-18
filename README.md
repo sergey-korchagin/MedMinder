@@ -1,8 +1,8 @@
- <p align="justify">MedMinder android application</p>
+ <p align="justify">MedMinder android application
 =============================
 
 
-##[Development Team](https://github.com/sergey-korchagin/MedMinder/wiki#-development-team)
+##<p align="justify">[Development Team](https://github.com/sergey-korchagin/MedMinder/wiki#-development-team)</p>
 ##[Project Vision](https://github.com/sergey-korchagin/MedMinder/wiki#-project-vision)
 ##[Project Inception](https://github.com/sergey-korchagin/MedMinder/wiki#-project-inception)
 ##[Project Stages](https://github.com/sergey-korchagin/MedMinder/wiki#-project-stages)
