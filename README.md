@@ -2,7 +2,7 @@ MedMinder android application
 =============================
 
 
-##[Development Team](https://github.com/sergey-korchagin/MedMinder/wiki#-development-team)
+##<kbd>[Development Team](https://github.com/sergey-korchagin/MedMinder/wiki#-development-team)</kbd>
 ##[Project Vision](https://github.com/sergey-korchagin/MedMinder/wiki#-project-vision)
 ##[Project Inception](https://github.com/sergey-korchagin/MedMinder/wiki#-project-inception)
 ##[Project Stages](https://github.com/sergey-korchagin/MedMinder/wiki#-project-stages)
