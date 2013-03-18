@@ -1,4 +1,4 @@
- <p align="justify">MedMinder android application
+MedMinder android application
 =============================
 
 
