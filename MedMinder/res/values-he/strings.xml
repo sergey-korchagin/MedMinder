@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MedMinder</string>
+    <string name="action_settings">הגדרות</string>
+    <string name="hello_world">Hello world!</string>
+    <color name="back">#c9c9c9</color>
+    <string name="meida">מידע על תרופות</string>
+    <string name="where">איפה לקנות</string>
+    <string name="email">בבקשה תכניס דוא"ל שלך</string>
+    <string name="empty">ריק</string>
+    <color name="Back2">#6495ed</color>
+    <string name="about">אודות</string>
+    <string name="about_menu"> 
+        
+    The Application was created 
+    by Sergey Korchagin.
+    Contact Us:
+   </string>
+    <string name="send">Send</string>
+    <string name="email2">שליחת דוח שדוא"ל שלי</string>
+    <string name="myDrugs">תרופות שלי</string>
+    <string name="drugInfo">מידע על תרופות</string>
+    <string name="trackingDrugs">מעקב על תרופות</string>
+    <string name="repottEmail">דיווח לדוא"ל</string>
+    <color name="white">#fffafa</color>
+	<string name="add">הוסף</string>
+</resources>
