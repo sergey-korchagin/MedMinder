@@ -22,7 +22,7 @@ public class Screen5 extends Activity
 	        super.onCreate(savedInstanceState);
 	        setContentView(R.layout.a_s5);
 	        
-	        button1 = (Button) findViewById(R.id.button1);
+	        button1 = (Button) findViewById(R.id.BUTTON_1);
 			//editText1 = (EditText) findViewById(R.id.editText1);  //for text 
 			
 			

@@ -26,7 +26,7 @@ public class MedMainActivity extends Activity {
 	{
 		switch (v.getId()) 
 		{
-		    case R.id.button1:
+		    case R.id.BUTTON_1:
 		        Intent intent = new Intent(MedMainActivity.this, Screen1.class);
 		        startActivity(intent);
 		        break;
@@ -81,18 +81,9 @@ public class MedMainActivity extends Activity {
 	    }
 		
 	}
-	//Empty
-	public void ClickListener6(View v)
-	{
-		switch (v.getId()) 
-		{
-		    case R.id.button6:
-		        Intent intent = new Intent(MedMainActivity.this, Screen6.class);
-		        startActivity(intent);
-		        break;
-	    }
+	
 		
-	}
+	
 		
 	//Menu Listener
 		@Override 

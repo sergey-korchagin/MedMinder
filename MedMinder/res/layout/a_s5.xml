@@ -9,13 +9,13 @@
         android:id="@+id/imageView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button1"
+        android:layout_below="@+id/BUTTON_1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="69dp"
         android:src="@drawable/ic_launcher" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/BUTTON_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/imageView1"

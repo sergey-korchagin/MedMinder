@@ -37,9 +37,9 @@
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/button1"
-        android:layout_alignRight="@+id/button1"
-        android:layout_below="@+id/button1"
+        android:layout_alignLeft="@+id/BUTTON_1"
+        android:layout_alignRight="@+id/BUTTON_1"
+        android:layout_below="@+id/BUTTON_1"
         android:layout_marginTop="4dp"
         android:background="@drawable/butt"
         android:onClick="ClickListener3"
@@ -62,7 +62,7 @@
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/BUTTON_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"

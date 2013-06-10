@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backpic"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Drug Information:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView_Dr_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/Back2"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView_Descr"
+        android:layout_width="match_parent"
+        android:layout_height="399dp"
+        android:gravity="top|center"
+        android:text="Reilief of mild to moderate pain such as headaches, toothaches, backpain, musculare and reduction of fever."
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</LinearLayout>
