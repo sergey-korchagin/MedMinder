@@ -6,8 +6,6 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.omg.CORBA.ARG_IN;
-
 public class DBClass {
 
 	private static final String DB_URL = "jdbc:mysql://db4free.net:3306/medminder";
