@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/medMainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backpic"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MedMainActivity" >
+
+    <Button
+        android:id="@+id/addNewDrugButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/butt"
+        android:height="50dp"
+        android:onClick="addNewDrugListener"
+        android:text="@string/addNewDrug"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/back"
+        android:textSize="@dimen/dp20"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/drugInfoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/addNewDrugButton"
+        android:layout_below="@+id/addNewDrugButton"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/butt"
+        android:height="50dp"
+        android:longClickable="false"
+        android:onClick="DrugInfoListener"
+        android:text="@string/drugInfo"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dp20"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/whereToBuyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/drugInfoButton"
+        android:layout_alignRight="@+id/drugInfoButton"
+        android:layout_below="@+id/drugInfoButton"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/butt"
+        android:height="50dp"
+        android:onClick="whereToBuyListener"
+        android:text="@string/where"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dp20"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/reportToEmailButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/whereToBuyButton"
+        android:layout_alignRight="@+id/whereToBuyButton"
+        android:layout_below="@+id/whereToBuyButton"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/butt"
+        android:height="50dp"
+        android:onClick="reportToEmailListener"
+        android:text="@string/repottEmail"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dp20"
+        android:textStyle="bold" />
+
+</RelativeLayout>

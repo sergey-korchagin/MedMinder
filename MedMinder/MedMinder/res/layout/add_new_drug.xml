@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/addNewDrug"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backpic"
+    android:clickable="false"
+    android:longClickable="false"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbarStyle="insideInset"
+    android:scrollbars="vertical"
+    android:textAlignment="textStart"
+    android:visibility="visible"
+    tools:context=".AddNewDrug" >
+
+    <TextView
+        android:id="@+id/addNewDrugTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:clickable="false"
+        android:enabled="false"
+        android:longClickable="false"
+        android:selectAllOnFocus="false"
+        android:text="Select a drug to add:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <ListView
+        android:id="@+id/addNewDrugList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/addNewDrugTitle"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/backpic"
+        android:clickable="true"
+        android:longClickable="false"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarStyle="insideInset"
+        android:textAlignment="textStart" >
+
+    </ListView>
+
+</RelativeLayout>
